@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 h1 {
   font-size: 26px;
   font-family: sans-serif;
@@ -7,7 +9,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-family: sans-serif;
+  font-family: "Indie Flower", cursive;
 }
 
 h3 {
@@ -28,6 +30,24 @@ p {
   line-height: 1.5;
 }
 
-li {
+ol li {
   font-family: sans-serif;
+  color: gold;
+}
+
+.link-button {
+  color: rgb(59, 59, 59);
+  background-color: silver;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.text-input {
+  background-color: white;
+  border: 3px solid rgb(105, 105, 105);
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
 }
